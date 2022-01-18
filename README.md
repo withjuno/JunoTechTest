@@ -12,9 +12,9 @@
 
 ### Background
 
-Our client, Acme Inc wants to stop using an external vendor for order management and bring the process onto Shift’s own Order Management System (OMS).
+Our client, Acme Inc wants to stop using an external vendor for order management and bring the process onto Juno’s own Order Management System (OMS).
 
-As part of that work, Acme will need to provide Shift with updates about orders that have been shipped or cancelled by Acme’s distribution warehouse, so that Shift can record fulfillments, settle payments, cancel orders, and send customer emails.
+As part of that work, Acme will need to provide Juno with updates about orders that have been shipped or cancelled by Acme’s distribution warehouse, so that Juno can record fulfillments, settle payments, cancel orders, and send customer emails.
 
 Acme will provide the order updates in batches (twice daily), in the form of a JSON file uploaded to an SFTP server. These files vary in size, but often contain tens-of-thousands of orders and are several megabytes in size.
 
