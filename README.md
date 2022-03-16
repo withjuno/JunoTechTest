@@ -129,7 +129,7 @@ Requirements:
 Install dependencies:
 
 ```sh
-nmp install
+npm install
 ```
 
 Run the tests
