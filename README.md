@@ -13,9 +13,9 @@ As part of that work, Acme will need to provide Juno with updates about orders t
 Acme will provide the order updates in batches (twice daily), in the form of a JSON message being posted to a restful API (express, lambda etc.)
 
 Below is a example of what one of the shipments may look like:
-(A copy of this data can be found in the fixtures folder and is used for testing)
 
-```json
+```jsonc
+// A copy of this data can be found in the fixtures folder and is used for testing
 {
   "ORDERS": [
     {
@@ -134,7 +134,7 @@ nmp install
 
 Run the tests
 
-```
+```sh
 npm test
 ```
 
