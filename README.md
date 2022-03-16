@@ -10,7 +10,7 @@ Our client, Acme Inc wants to stop using an external vendor for order management
 
 As part of that work, Acme will need to provide Juno with updates about orders that have been shipped or cancelled by Acme’s distribution warehouse, so that Juno can record fulfillments, settle payments, cancel orders, and send customer emails.
 
-Acme will provide the order updates in batches (twice daily), in the form of JSON messaging being posted to a restful API (express, lambda etc.)
+Acme will provide the order updates in batches (twice daily), in the form of a JSON message being posted to a restful API (express, lambda etc.)
 
 Below is a example of what one of the shipments may look like:
 (A copy of this data can be found in the fixtures folder and is used for testing)
