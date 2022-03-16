@@ -10,7 +10,7 @@ const context = {
 }
 
 describe('Handler', () => {
-  it('Parses the JSON body into a usable object', () => {
+  it('Parses the JSON string into a JavaScript object', () => {
     const data = handler(event, context)
 
     const { ORDERS: orders } = data
