@@ -2,7 +2,7 @@
 
 ### Instructions
 
-Below we have outline a simple Node JS technical test that you should approach as a pairing exercise with the interviewer. What we're looking for is good discussion on the approaches you take to complete the task. There is no pressure to write incredible code or even finish the task, it's all about approach.
+Below we have outline a Node JS technical test that you should approach as a pairing exercise with the interviewer. What we're looking for is good discussion on the approaches you take to complete the task. There is no pressure to write incredible code or even finish the task, it's all about approach.
 
 ### Background
 
